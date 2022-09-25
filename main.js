@@ -38,12 +38,12 @@ function firstQuestion(){
             var audio = new Audio('tick.mp3');
             audio.play();
             Swal.fire({
-                title: 'hello tình yêu<3😘 ',
-                text: 'Chúc em có 1 ngày valentine vui vẻ 😊, một mùa valentine thật đằm thắm, cùng nhau cố gắng vượt qua khó khăn để cho tình yêu của 2 đứa tốt đẹp hơn, vươn xa hơn và đi tới hạnh phúc, chúc em có một mùa Va lên thai vui vẻ🥰🥰🥰',
+                title: 'hello <3😘 ',
+                text: 'Chúc bạn có 1 ngày valentine vui vẻ 😊, một mùa valentine thật đằm thắm, cùng nhau cố gắng vượt qua khó khăn để cho tình yêu của 2 đứa tốt đẹp hơn, vươn xa hơn và đi tới hạnh phúc, chúc em có một mùa Va lên thai vui vẻ🥰🥰🥰',
                 imageUrl: 'baner.jpg',
                 background: '#fff url("iput-bg.jpg")',
                 imageAlt: 'Custom image',
-                confirmButtonText: 'Cảm ơn anh yêu!😘'
+                confirmButtonText: 'Cảm ơn nhe!😘'
               })
       .then((result) => {
         if (result.value) {
