@@ -43,7 +43,7 @@ function firstQuestion(){
                 imageUrl: 'baner.jpg',
                 background: '#fff url("iput-bg.jpg")',
                 imageAlt: 'Custom image',
-                confirmButtonText: 'Cảm ơn nhe!😘'
+                confirmButtonText: 'Cảm ơn nhiều nhé!😘'
               })
       .then((result) => {
         if (result.value) {
